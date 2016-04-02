@@ -1,5 +1,9 @@
 var app = angular.module("flapperNews", []);
 
+app.factory('posts', [function() {
+  // factory code
+}]);
+
 app.controller("MainCtrl", ['$scope', function($scope) {
   $scope.test = "Hello World!";
   $scope.posts = [];
